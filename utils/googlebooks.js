@@ -8,9 +8,6 @@ module.exports = async (phrase) => {
         }
     })
 
-
-    //
-    //TODO: return a formattedObj
     var formattedObj = {
         data: results.data,
         status: results.status,
@@ -19,6 +16,5 @@ module.exports = async (phrase) => {
         requestHeader: results.config.headers
     }
 
-    //TODO: return the formattedObject
-    return JSON.stringify(results.data);
+    return JSON.stringify(formattedObj);
 }
