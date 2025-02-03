@@ -1,0 +1,69 @@
+REQUEST HEADERS -----
+
+Key: Postman-Token
+Value: <calculated upon request>
+Desc: UUID of request
+
+Key: Host
+Value: <calculated upon request>
+Desc: Address of host I'm connecting to
+
+Key: User-Agent
+Value: PostmanRuntime/7.43.0
+Desc: Identifies Postman as the HTTP client
+
+Key: Accept
+Value: */*
+Desc: Indicates that Postman can accept any message type
+
+Key: Accept-Encoding
+Value: gzip, deflate, br
+Desc: Postman HTTP client accepts the above encoding/compression algorithms
+
+Key: Connection
+Value: keep-alive
+Desc: Indicates a persistent connection to possibly be reused later
+
+
+
+RESPONSE HEADERS -----
+
+Key: Content-Type
+Value: application/json; charset=UTF-8
+Desc: Character formatting of message
+
+Key: Vary
+Values: Origin, X-Origin, Referer
+Desc: Determines how to match request headers for caching purposes
+
+Key: Content-Encoding
+Values: gzip
+Desc: Algorithm to encode response
+
+Key: Date
+Value: Mon, 03 Feb 2025 06:34:00 GMT
+Desc: Timestamp of response
+
+Key: Server
+Value: ESF
+Desc: How the server handles requests
+
+Key: X-XSS-Protection
+Value: 0
+Desc: For security purposes
+
+Key: X-Frame-Options
+Value: SAMEORIGIN
+Desc: For security purposes
+
+Key: X-Content-Type-Options
+Value: nosniff
+Desc: For security purposes
+
+Key: Alt-Svc
+Value: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Desc: (Unknown)
+
+Key: Transfer-Encoding
+Value: chunked
+Desc: Data is encoded in chunks
